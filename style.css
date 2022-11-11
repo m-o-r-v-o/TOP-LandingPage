@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.hero,
+.header,
+.information-container,
+.footer,
+.call-to-action-container,
+.quote-container {
+    padding: 15px 300px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 300px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero,
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header-links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button,
+.call-to-action-container {
+    background-color: #3882f6;
+    color: white;
+}
+
+.call-to-action-container button {
+    border-color: white;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.hero button {
+    border-width: medium;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.hero-right {
+    padding: 100px 300px;
+    background-color: grey;
+}
+
+button {
+    padding: 3px 20px;
+}

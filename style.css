@@ -3,22 +3,23 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 .hero,
 .header,
 .information-container,
+.information-title,
 .footer,
-.call-to-action-container,
 .quote-container {
-    padding: 15px 300px;
+    padding: 15px 10%;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 300px;
+    padding: 15px 10%;
 }
 
 .header-logo {
@@ -71,13 +72,105 @@ button,
     display: flex;
     justify-content: space-between;
     align-content: center;
+    padding-bottom: 100px;
 }
 
 .hero-right {
-    padding: 100px 300px;
+    padding: 100px 10%;
     background-color: grey;
+    margin-left: 100px;
 }
 
 button {
     padding: 3px 20px;
+    height: auto;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: medium;
+    margin: 0;
+    padding: 0;
+    border-color: #3882f6;
+}
+
+.information {
+    max-width: 200px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.information-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px 0;
+}
+
+.call-to-action-container {
+    display: flex;
+    margin: 52px 30%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    border-radius: 15px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding-left: 24px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    padding: 12px 30%;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    padding: 0px 30%;
+    margin: 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-header,
+.call-to-action-text {
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action-header {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #f9faf8;
 }
